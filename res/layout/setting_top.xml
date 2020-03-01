@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/setting"
+    tools:context=".MainActivity" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="11"
+	    android:gravity="center|right"
+	    android:orientation="horizontal" >
+		
+	    <TextView
+	        android:id="@+id/setting_location_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginRight="20dp"
+	        android:textSize="@dimen/very_small_text"
+	        android:textStyle="bold"
+	        android:textColor="@color/low_yellow_color" />
+	    
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/online"
+	        android:gravity="center"
+	        android:textStyle="bold" />
+	    
+	    <TextView
+	        android:id="@+id/setting_num_people_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_marginRight="40dp"
+	        android:textSize="@dimen/very_small_text"
+	        android:textStyle="bold"
+	        android:textColor="@color/low_yellow_color" />
+	</LinearLayout>
+
+   	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="21"
+        android:gravity="center|right"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

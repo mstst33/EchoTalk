@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <LinearLayout
+        android:id="@+id/content_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+    <!-- Menu -->
+
+    <LinearLayout
+        android:id="@+id/tap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/echoBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/echo_echo_btn_select"
+            android:onClick="mOnClick"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:textColor="#4374D9"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/roarBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/echo_roar_btn_select"
+            android:onClick="mOnClick"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:textColor="#4374D9"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/myinfoBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/echo_my_info_btn_select"
+            android:onClick="mOnClick"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:textColor="#4374D9"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/settingBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/echo_setting_btn_select"
+            android:gravity="center"
+            android:onClick="mOnClick"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:textColor="#4374D9"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

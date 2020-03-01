@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+     
+    <LinearLayout
+        android:id="@+id/category_of_nine_row1" 
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+     <ImageView android:id="@+id/category_of_nine_btnTheme1" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/category_daily_btn_select"
+            	android:adjustViewBounds="true"/>
+     <ImageView android:id="@+id/category_of_nine_btnTheme2" 
+            	android:layout_width="wrap_content"
+            	android:src="@drawable/category_travel_btn_select"
+            	android:layout_height="wrap_content"
+            	android:adjustViewBounds="true"/>
+     <ImageView android:id="@+id/category_of_nine_btnTheme3" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/category_exercise_btn_select"
+            	android:adjustViewBounds="true"/>       
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/category_of_nine_row2" 
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+      	android:layout_gravity="center"
+        >
+     <ImageView android:id="@+id/category_of_nine_btnTheme4" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/category_hobby_btn_select"
+            	android:adjustViewBounds="true"/>
+     <ImageView android:id="@+id/category_of_nine_btnTheme5" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/category_study_btn_select"
+            	android:adjustViewBounds="true"/>
+     <ImageView android:id="@+id/category_of_nine_btnTheme6" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/category_question_btn_select"
+            	android:adjustViewBounds="true"/>       
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category_of_nine_row3" 
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+     <ImageView android:id="@+id/category_of_nine_btnTheme7" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/category_job_btn_select"
+            	android:adjustViewBounds="true"/>
+     <ImageView android:id="@+id/category_of_nine_btnTheme8" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/category_used_btn_select"
+            	android:adjustViewBounds="true"/>
+     <ImageView android:id="@+id/category_of_nine_btnTheme9" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/category_all_btn_select"
+            	android:adjustViewBounds="true"/>       
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/category_of_nine_btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/roar_category_select" />
+    
+</LinearLayout>

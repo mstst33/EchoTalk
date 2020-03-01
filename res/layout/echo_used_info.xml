@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/used_subject"
+            android:textColor="@color/used_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/used_subject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:inputType="textCapSentences"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/product_classification"
+            android:textColor="@color/used_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/used_product_classification"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:inputType="textCapSentences"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/buy_or_sell"
+            android:textColor="@color/used_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/used_buy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="mOnClick"
+                android:text="@string/buy"
+                android:textSize="@dimen/middle_text" />
+
+            <TextView
+                android:id="@+id/used_sell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="mOnClick"
+                android:text="@string/sell"
+                android:textSize="@dimen/middle_text" />
+            
+            </LinearLayout>
+    </LinearLayout>
+    <!--  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/is_completed"
+            android:textColor="@color/used_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/used_is_completed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:text="@string/uncompleted"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+	-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/asking_price"
+            android:textColor="@color/used_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/used_asking_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:inputType="textCapSentences"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/mode_of_dealing"
+            android:textColor="@color/used_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/used_mode_of_dealing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:inputType="textCapSentences"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/used_writing_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/theme_padding"
+            android:hint="@string/writing_hint"
+            android:maxLines="3"
+            android:windowSoftInputMode="adjustPan"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+
+</LinearLayout>

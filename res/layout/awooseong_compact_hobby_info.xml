@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#ffffff" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/hobby_subject"
+            android:textColor="@color/hobby_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/awooseong_compact_hobby_subject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/start_date"
+            android:textColor="@color/hobby_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/awooseong_compact_hobby_start_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:singleLine="true"
+            android:hint="@string/input_date"
+            android:onClick="mOnClick"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/hobby_place"
+            android:textColor="@color/hobby_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/awooseong_compact_hobby_place"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee" >
+    
+    <EditText 
+        android:id="@+id/awooseong_reportText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="7"
+        android:scrollbars="vertical"
+        android:hint="불만사항을 적어주세요."/>
+    
+    <LinearLayout 
+        android:id="@+id/awooseong_reportTwoBtnLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/awooseong_reportSendBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="보내기"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/awooseong_reportCloseBtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="닫 기"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

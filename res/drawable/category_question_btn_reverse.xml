@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+        <!-- pressed --> 
+<item android:state_pressed="true"
+    android:drawable="@drawable/question" />    
+<!-- 노멀상태 -->
+<item android:drawable="@drawable/question_roll"></item>    
+
+</selector>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EchoProject</string>
+    <string name="action_settings">Settings</string>
+	<string name="tap_echo">Echo</string>
+    <string name="tap_roar">Roar</string>
+    <string name="tap_myinfo">MyInfo</string>
+    <string name="tap_setting">Setting</string>
+    <string name="shout">Shout</string>
+    <string name="distance">KM</string>
+    <string name="daily">Daily</string>
+    <string name="travel">Travel</string>
+    <string name="exercise">Exercise</string>
+    <string name="job">Job</string>
+    <string name="study">Study</string>
+    <string name="hobby">Hobby</string>
+    <string name="question">Question</string>
+    <string name="used">Used</string>
+    <string name="writing_hint">Please prepare your words to shout\nat people around you here</string>
+    <string name="input_date">Please click here to input date</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="uncompleted">Uncompleted</string>
+    <string name="completed">Completed</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="camera">Take a photo</string>
+    <string name="photo_album">Photo Album</string>
+    <string name="cancel">Canecel</string>
+    <string name="pw_not_correct">Passwords you input are not matched each other</string>
+    <string name="near">Near</string>
+    <string name="far">Far</string>
+    <string name="very_far">Very Far</string>
+    <string name="whole_area">Whole</string>
+    <string name="local_area">Local</string>
+    <string name="setting_distance">Distance Setting</string>
+    <string name="setting_range">Range Setting</string>
+    
+    <!-- Day of the week -->
+    <string name="monday">Mon</string><string name="tuesday">Tue</string><string name="wednesday">Wed</string><string name="thursday">Thu</string>
+    <string name="friday">Fri</string><string name="saturday">Sat</string><string name="sunday">Sun</string>
+    
+    <!-- Common Info -->
+    <string name="number_addmitted">Number Addmitted</string>
+    <string name="start_date">Start Date</string>
+    <string name="is_completed">Is Completed</string>
+    <string name="product_classification">Classification</string>
+    <string name="buy_or_sell">Buy Or Sell</string>
+    <string name="asking_price">Asking Price</string>
+    <string name="mode_of_dealing">Mode Of Dealing</string>
+    
+    <!-- Travel Info -->
+    <string name="travel_subject">Travel Suject</string>
+    <string name="travel_date">Travel Date</string>
+    <string name="travel_period">Travel Period</string>
+    <string name="travel_place">Travel Place</string>
+    
+    <!-- Study Info -->
+    <string name="study_subject">Study Subject</string>
+    <string name="study_duration_per_day">Duration\nPer Day</string>
+    <string name="study_day_of_week">Day Of Week</string>
+    <string name="study_place">Study Place</string>
+    
+    <!-- Job Info -->
+    <string name="job_subject">Job subject</string>
+    <string name="job_day_of_week">Day Of Week</string>
+    <string name="job_duration_per_day">Duration\nPer Day</string>
+    <string name="job_place">Job Place</string>
+    <string name="job_pay">Job Pay</string>
+    
+    <!-- Exercise Info -->
+    <string name="exercise_subject">Exercise subject</string>
+    <string name="exercise_duration_per_day">Duration\nPer Day</string>
+    <string name="exercise_place">Exercise Place</string>
+    
+    <!-- Hobby Info -->
+    <string name="hobby_subject">Hobby subject</string>
+    <string name="hobby_duration_per_day">Duration\nPer Day</string>
+    <string name="hobby_place">Hobby Place</string>
+    
+    <!-- Question Info -->
+    <string name="question_subject">Question subject</string>
+    
+    <!-- Used Info -->
+    <string name="used_subject">Used subject</string>
+    <string name="used_place">Used Place</string>
+    
+    <!-- ShoutWindow -->
+    <string name="alert_shout">Please input words to shout</string>
+    <string name="sended_message">Sended message</string>
+    <string name="new_message">New message</string>
+    <string name="interested_keywords">Interested keywords</string>
+    <string name="select_keywords">Select keywords</string>
+    <string name="status_message">Status message</string>
+    <string name="write_status">Write status message</string>
+    <string name="message">Message</string>
+</resources>

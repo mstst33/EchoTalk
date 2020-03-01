@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#ffffff" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="@string/travel_subject"
+            android:textColor="@color/travel_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/awooseong_compact_travel_subject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:gravity="center"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="@string/travel_date"
+            android:textColor="@color/travel_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/awooseong_compact_travel_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:onClick="mOnClick"
+            android:gravity="center"
+            android:hint="@string/input_date"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="@string/travel_place"
+            android:textColor="@color/travel_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/awooseong_compact_travel_place"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+
+</LinearLayout>

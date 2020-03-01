@@ -1,0 +1,7 @@
+.svn
+bin
+.settings
+res/drawable-hdpi
+res/drawable-mdpi
+res/drawable-xhdpi
+ic_launcher-web.png

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4a95fc" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/echo_daily_btn"
+                android:background="@drawable/life_speak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:onClick="mOnClick" />
+
+            <Button
+                android:id="@+id/echo_travel_btn"
+                android:background="@drawable/tour_speak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:onClick="mOnClick" />
+			
+            <Button
+                android:id="@+id/echo_exercise_btn"
+                android:background="@drawable/sports_speak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:onClick="mOnClick" />
+            
+            <Button
+                android:id="@+id/echo_hobby_btn"
+                android:background="@drawable/hobby_speak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:onClick="mOnClick" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/echo_study_btn"
+                android:background="@drawable/study_speak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:onClick="mOnClick" />
+
+            <Button
+                android:id="@+id/echo_question_btn"
+                android:background="@drawable/question_speak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:onClick="mOnClick" />
+
+            <Button
+                android:id="@+id/echo_job_btn"
+                android:background="@drawable/job_speak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:onClick="mOnClick" />
+
+            <Button
+                android:id="@+id/echo_used_btn"
+                android:background="@drawable/reuse_speak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_padding"
+                android:layout_weight="1"
+                android:onClick="mOnClick"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/writing_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/echo_shout_btn"
+                android:background="@drawable/echo_cry_btn_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:onClick="mOnClick" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/echo_add_photo_btn"
+                android:background="@drawable/echo_photo_up_btn_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:onClick="mOnClick" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

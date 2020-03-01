@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <ImageView
+            android:id="@+id/awooseong_reply_relative_mainPic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="35dp"
+            android:maxHeight="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/base_person"
+         />
+    
+     <TextView
+             android:id="@+id/awooseong_reply_relative_name"
+             android:layout_marginLeft="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/awooseong_reply_relative_mainPic"
+             android:layout_alignTop="@id/awooseong_reply_relative_mainPic"
+             android:textSize="10dp"
+             android:textStyle="bold"
+             android:text="name"
+             />
+     <TextView
+             android:id="@+id/awooseong_reply_relative_replyContent"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/awooseong_reply_relative_mainPic"
+             android:layout_below="@id/awooseong_reply_relative_name"
+             android:textSize="10dp"
+             />
+
+     <ImageView
+         android:id="@+id/awooseong_reply_relative_deleteImg"
+         android:layout_width="25dp"
+         android:layout_height="25dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@+id/awooseong_reply_relative_name"
+         android:layout_marginRight="52dp"
+         android:src="@drawable/delete" />
+     
+</RelativeLayout>

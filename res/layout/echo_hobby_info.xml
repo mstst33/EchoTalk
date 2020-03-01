@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/hobby_subject"
+            android:textColor="@color/hobby_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hobby_subject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:inputType="textCapSentences"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/start_date"
+            android:textColor="@color/hobby_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hobby_start_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:singleLine="true"
+            android:hint="@string/input_date"
+            android:onClick="mOnClick"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/hobby_duration_per_day"
+            android:textColor="@color/hobby_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hobby_duration_per_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/number_addmitted"
+            android:textColor="@color/hobby_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hobby_number_addmitted"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="@string/hobby_place"
+            android:textColor="@color/hobby_color"
+            android:textSize="@dimen/middle_text"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hobby_place"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/theme_padding"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:inputType="textCapSentences"
+            android:singleLine="true"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/hobby_writing_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/theme_padding"
+            android:hint="@string/writing_hint"
+            android:maxLines="3"
+            android:windowSoftInputMode="adjustPan"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textSize="@dimen/middle_text" />
+    </LinearLayout>
+
+</LinearLayout>

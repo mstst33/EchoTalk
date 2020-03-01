@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.6"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="5dp"
+    android:background="#ffffff"
+     >
+    
+    <LinearLayout
+        android:id="@+id/daily_join_invisible"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/party_hubbub"
+        android:layout_marginRight="2.5dp">
+    	
+    	<ImageView
+    	    android:id="@+id/awooseong_twoBtn_JoinImg"
+    	    android:layout_width="0dp"
+    	    android:layout_height="match_parent"
+    	    android:maxHeight="35dp"
+    	    android:layout_weight="1"
+    	    android:adjustViewBounds="true"
+    	    android:scaleType="fitXY"
+    	    android:src="@drawable/ic_launcher"
+    	    android:visibility="invisible"
+    	    android:gravity="center"/>
+    	
+    	<TextView 
+    	    android:id="@+id/awooseong_twoBtn_JoinLikeView"
+    	    android:layout_width="0dp"
+    	    android:layout_height="match_parent"
+    	    android:layout_weight="1"
+    	    android:background="#00000000"
+    	    android:textSize="15sp"
+    	    android:textStyle="bold"
+    	    android:gravity="center"/>
+    	<TextView 
+    	    android:id="@+id/awooseong_twoBtn_JoinTextView"
+    	    android:layout_width="0dp"
+    	    android:layout_height="match_parent"
+    	    android:layout_weight="2"
+    	    android:background="#00000000"
+    	    android:textSize="12sp"
+    	    android:textStyle="bold"
+    	    android:text="Join"
+    	    android:gravity="center"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/new_hubbub"
+        android:layout_marginLeft="2.5dp">
+    	
+    	<ImageView
+    	    android:id="@+id/awooseong_twoBtn_CommentImg"
+    	    android:layout_width="0dp"
+    	    android:layout_height="match_parent"
+    	    android:layout_weight="1"
+    	    android:adjustViewBounds="true"
+    	    android:scaleType="fitXY"
+    	    android:maxHeight="35dp"
+    	    android:visibility="invisible"
+    	    android:src="@drawable/new_hubbub"
+    	    android:gravity="center"/>
+    	<TextView 
+    	    android:id="@+id/awooseong_twoBtn_CommentLikeView"
+    	    android:layout_width="0dp"
+    	    android:layout_height="match_parent"
+    	    android:layout_weight="1"
+    	    android:background="#00000000"
+    	    android:textSize="15sp"
+    	    android:textStyle="bold"
+    	    android:gravity="center"/>
+    	<TextView
+    	    android:id="@+id/awooseong_twoBtn_CommnetTextView" 
+    	    android:layout_width="0dp"
+    	    android:layout_height="match_parent"
+    	    android:layout_weight="2"
+    	    android:background="#00000000"
+    	    android:textSize="12sp"
+    	    android:textStyle="bold"
+    	    android:text="Comment"
+    	    android:gravity="center"/>
+    </LinearLayout>
+    
+
+</LinearLayout>

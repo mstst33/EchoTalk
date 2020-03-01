@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="keywords">
+        <item>축구</item>
+        <item>농구</item>
+        <item>배드민턴</item>
+        <item>영화</item>
+        <item>등산</item>
+        <item>음악</item>
+        <item>여행</item>
+    </string-array>
+    
+    <string-array name="setting_alert">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+       
+    </string-array>
+</resources>
